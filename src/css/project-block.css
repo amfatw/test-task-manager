@@ -1,0 +1,20 @@
+.project-block {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.project-block__image-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  
+  background-color: #E2E2EA;
+}
+
+.project-block__project-name {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 24px;
+}

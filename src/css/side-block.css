@@ -1,0 +1,22 @@
+.side-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex-shrink: 0;
+  padding: 55px 12px;
+  margin: 0;
+  border-right: 1px solid #E1E1E1;
+}
+
+.side-block__li {
+  display: contents;
+}
+
+.side-block__item {
+  display: block;
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+
+  background-color: #E2E2EA;
+}

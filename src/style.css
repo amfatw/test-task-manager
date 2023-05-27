@@ -1,0 +1,11 @@
+@import './css/normalize.css';
+@import './css/global.css';
+@import './css/fonts.css';
+@import './css/app-container.css';
+@import './css/app-header.css';
+@import './css/project-block.css';
+@import './css/user-block.css';
+@import './css/app-main.css';
+@import './css/side-block.css';
+@import './css/table-block.css';
+@import './css/tasks-table.css';

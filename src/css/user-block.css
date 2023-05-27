@@ -1,0 +1,35 @@
+.user-block {
+  display: flex;
+  column-gap: 18px;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.user-block__alerts {
+  width: 40px;
+  height: 40px;
+  
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.user-block__image-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  background-color: #E2E2EA;
+}
+
+.user-block__user-name {
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.user-block__user-title {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 12px;
+  color: #9A9AB0;
+}

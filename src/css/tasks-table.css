@@ -1,0 +1,183 @@
+.tasks-table {
+  width: 100%;
+}
+
+.tasks-table__caption {
+  padding: 0 54px 20px 54px;
+
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.tasks-table__head-row {
+  display: flex;
+  width: 100%;
+
+  background-color: #F7F7FC;
+}
+
+.tasks-table__head-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  font-weight: 700;
+}
+
+.tasks-table__tab-head {
+  position: relative;
+
+  padding: 15px 10px;
+
+  font-family: 'Roboro', 'Arial', sans-serif;
+  font-weight: 400;
+  color: #373745;
+  text-align: left;
+
+  background-color: #E1E1FB;
+  cursor: pointer;
+}
+
+.tasks-table__tab-head::before,
+.tasks-table__tab-head::after {
+  position: absolute;
+  top: 50%;
+
+  content: '';
+  width: 3px;
+  height: 10px;
+  border-radius: 2px;
+
+  background-color: #373745;
+}
+
+.tasks-table__tab-head::before {
+  left: 200px;
+
+  transform: translate(-50%, -50%) rotate(35deg);
+}
+
+.tasks-table__tab-head::after {
+  left: 205px;
+
+  transform: translate(-50%, -50%) rotate(-35deg);
+}
+
+.tasks-table__body--active .tasks-table__tab-head::before {
+  transform: translate(-50%, -50%) rotate(-35deg);
+}
+.tasks-table__body--active .tasks-table__tab-head::after {
+  transform: translate(-50%, -50%) rotate(35deg);
+}
+
+.task-row {
+  display: flex;
+  max-height: 0;
+
+  overflow: hidden;
+  
+  transition-duration: 0.5s;
+  transition-property: max-height;
+}
+
+.task-row--inProgress {
+  background-color: #71FACA;
+}
+
+.tasks-table__body--active .task-row{
+  max-height: 60px;
+}
+
+.tasks-table__head-cell,
+.task-row__cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-row__cell {
+  padding: 10px 0;
+}
+
+.task-row__status-select {
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.task-row__status-select--onPause {
+  background-color: #FFCCDD;
+}
+
+.task-row__status-select--inProgress {
+  background-color: #CEFDED;
+}
+
+
+.tasks-table__head-cell:nth-child(1),
+.task-row__cell:nth-child(1) {
+  width: 5%;
+}
+
+.tasks-table__head-cell:nth-child(2),
+.task-row__cell:nth-child(2) {
+  width: 5%;
+}
+
+.tasks-table__head-cell:nth-child(3),
+.task-row__cell:nth-child(3) {
+  width: 5%;
+}
+
+.tasks-table__head-cell:nth-child(4),
+.task-row__cell:nth-child(4) {
+  width: 10%;
+}
+
+.tasks-table__head-cell:nth-child(5),
+.task-row__cell:nth-child(5) {
+  width: 10%;
+}
+
+.tasks-table__head-cell:nth-child(6),
+.task-row__cell:nth-child(6) {
+  width: 10%;
+}
+
+.tasks-table__head-cell:nth-child(7),
+.task-row__cell:nth-child(7) {
+  width: 10%;
+}
+
+.tasks-table__head-cell:nth-child(8),
+.task-row__cell:nth-child(8) {
+  width: 5%;
+}
+
+.tasks-table__head-cell:nth-child(9),
+.task-row__cell:nth-child(9) {
+  width: 10%;
+}
+
+.tasks-table__head-cell:nth-child(10),
+.task-row__cell:nth-child(10) {
+  width: 5%;
+}
+
+.tasks-table__head-cell:nth-child(11),
+.task-row__cell:nth-child(11) {
+  width: 5%;
+}
+
+.tasks-table__head-cell:nth-child(12),
+.task-row__cell:nth-child(12) {
+  width: 10%;
+}
+
+.tasks-table__head-cell:nth-child(13),
+.task-row__cell:nth-child(13) {
+  width: 10%;
+}
