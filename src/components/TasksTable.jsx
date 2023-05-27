@@ -10,6 +10,12 @@ const TasksTable = ({ tasks, changeTaskStatus }) => {
   const [currentTab, setCurentTab] = useState('forTodayTasks');
 
   const changeCurrentTab = (tabId) => {
+    if (currentTab === tabId) {
+      setCurentTab('');
+
+      return;
+    }
+    
     setCurentTab(tabId);
   }
 

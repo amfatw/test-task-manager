@@ -3,7 +3,6 @@ const UserBlock = () => {
     <div className='user-block'>
       <button className='user-block__alerts'>
         <span className='visually-hidden'>Оповещения</span>
-        +
       </button>
       <div className='user-block__image-container'></div>
       <div className='user-block__user-data'>

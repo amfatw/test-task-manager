@@ -19,4 +19,10 @@
   border-radius: 8px;
 
   background-color: #E2E2EA;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.side-block__item--something {
+  background-image: url('../../public/Svg/something.svg');
 }

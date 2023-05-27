@@ -8,9 +8,13 @@
 .user-block__alerts {
   width: 40px;
   height: 40px;
+  border: 0;
   
   background-color: transparent;
   cursor: pointer;
+  background-image: url('../../public/Svg/alert.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .user-block__image-container {
